@@ -10,7 +10,7 @@ for fold in range(n_folds):
         test_ids, val_ids, train_ids = fold_ids
 	
         #annotation_file = 'annotations_croppad_fold'+str(fold+1)+'.txt'
-        annotation_file = 'annotations.txt'
+        annotation_file = '/kaggle/working/annotations.txt'
 	
         for i,actor in enumerate(os.listdir(root)):
             for video in os.listdir(os.path.join(root, actor)):
