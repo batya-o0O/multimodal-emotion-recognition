@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-root = '/kaggle/input/RAVDESS'
+root = '/kaggle/input/ravdess'
 
 n_folds=1
 folds = [[[0],[1],[2,3]]]
